@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
       timestamp: Date.now(),
     });
   });
-  document.querySelector("#blade-color-btn").addEventListener("click", function () {
+  document.querySelector("#blade-color-btn2").addEventListener("click", function () {
     const color = tinycolor.random();
     document.shopifyConnect.triggerBladeColorChange({
       color: color.toHexString()
