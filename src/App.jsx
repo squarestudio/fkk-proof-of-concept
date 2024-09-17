@@ -74,8 +74,8 @@ function App() {
           preserveDrawingBuffer: true,
         }}
         camera={{
-          fov: 75,
-          position: [0, 0.5, 2],
+          fov: 40,
+          position: [0, 0.5, 12],
         }}
       >
         <Environment files="https://cdn.shopify.com/s/files/1/0739/0206/3938/files/forest_slope_1k.hdr" />
