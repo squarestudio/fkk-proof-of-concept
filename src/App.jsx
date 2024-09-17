@@ -75,7 +75,7 @@ function App() {
         }}
         camera={{
           fov: 40,
-          position: [0, 0.5, 12],
+          position: [0, 0.5, 18],
         }}
       >
         <Environment files="https://cdn.shopify.com/s/files/1/0739/0206/3938/files/forest_slope_1k.hdr" />
